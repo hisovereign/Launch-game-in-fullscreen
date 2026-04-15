@@ -3,6 +3,8 @@ directions if having trouble opening game while fullscreen is active in linux
 
 ## Directions
 
+video instructions: https://www.youtube.com/watch?v=NtKIdmuc4m4
+
  Install devilspie2 if not already installed
 ```
 sudo apt install devilspie2
