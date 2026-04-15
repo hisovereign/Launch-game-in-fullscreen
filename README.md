@@ -3,10 +3,12 @@ directions if having trouble opening game while fullscreen is active in linux
 
 ## Directions
 
-# Install devilspie2 if not already installed
+ Install devilspie2 if not already installed
+```
 sudo apt install devilspie2
-
-# Create config directory
+```
+ Create config directory
+```
 mkdir -p ~/.config/devilspie2
 
 # Create the main config file
@@ -16,9 +18,9 @@ scripts = {
    "opengame.lua"
 }
 EOF
-
-#make borderless rule (make sure to replace "Game Name"
-
+```
+make borderless rule (make sure to replace "Game Name"
+```
 cat > ~/.config/devilspie2/opengame.lua << 'EOF'
 -- Replace "Game Name" with the exact game name
 if (string.find(get_application_name(), "Game Name") or 
@@ -31,6 +33,12 @@ if (string.find(get_application_name(), "Game Name") or
     -- set_window_geometry(0, 0, 1920, 1080)
 end
 EOF
+```
 
+Then run
+```
 pkill devilspie2
 devilspie2 &
+```
+
+Then launch game
