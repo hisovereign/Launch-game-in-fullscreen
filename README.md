@@ -10,8 +10,9 @@ sudo apt install devilspie2
  Create config directory
 ```
 mkdir -p ~/.config/devilspie2
-
+```
 # Create the main config file
+```
 cat > ~/.config/devilspie2/devilspie2.lua << 'EOF'
 -- Load all .lua files in this directory
 scripts = {
