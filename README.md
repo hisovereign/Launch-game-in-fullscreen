@@ -1,5 +1,5 @@
-# Launch game in fullscreen for Linux
-directions if having trouble opening game while fullscreen is active in linux
+# Launch game in fullscreen for Linux X11
+directions if having trouble opening game while fullscreen is active in linux X11
 
 ## Directions
 
